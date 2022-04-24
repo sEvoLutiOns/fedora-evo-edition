@@ -1,4 +1,7 @@
 # fedora-evo-edition
 My Linux fedora configuration
 
-Test 1
+## Prerequisite
+- Base is a Fedora Server 36 Beta Installation - Select Custom Fedora OS with the following groups: Standard, Audio & Video and Window Manager
+
+
