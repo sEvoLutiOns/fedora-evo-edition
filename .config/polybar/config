@@ -533,7 +533,7 @@ bar-empty-underline = ${colors.background}
 
 [module/eth]
 type = internal/network
-interface = enp5s0
+interface = enp0s3
 interval = 3.0
 
 ;format-connected-underline = ${xrdb:color2}
@@ -611,7 +611,7 @@ label = %{A1:~/.config/polybar/polybar-scripts/cal-popup.sh --popup &:}%date%%{A
 [module/time]
 type = internal/date
 interval = 5
-time = "%I:%M %p"
+time = "%H:%M"
 ;time-alt = "%A, %B %d %Y"
 format = <label>
 format-background = ${colors.shade16}

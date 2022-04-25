@@ -25,6 +25,11 @@ cd ~/GITREPOS/fedora-evo-edition
 cp -ivr ~/GITREPOS/fedora-evo-edition/* ~/
 
 
+# Copy wallpaper
+cd ~/GITREPOS/fedora-evo-edition
+
+cp -iv 001-wallpaper.jpg ~/.config/
+
 # Install the base packages
 sudo dnf install bspwm picom kitty firefox rofi sxhkd vim thunar dconf-editor arandr fontawesome-fonts fontawesome-fonts-web nitrogen
 
@@ -48,4 +53,4 @@ unzip Meslo.zip
 
 
 # Install all my software
-sudo dnf install keepassxc
+sudo dnf install keepassxc flameshot
